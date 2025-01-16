@@ -23,10 +23,7 @@ Where:
 The Weak formulation is given by <span style="color:red">(Found online, rederive for assurance!!)</span>.:
 
 $$
-\int_{\Omega} \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} \cdot \mathbf{v} \, d\Omega 
-+ \int_{\Omega} \mathbf{P} : \nabla \mathbf{v} \, d\Omega 
-= \int_{\Omega} \mathbf{f}_{\text{ext}} \cdot \mathbf{v} \, d\Omega 
-+ \int_{\partial \Omega_t} \mathbf{t} \cdot \mathbf{v} \, d\Gamma
+\int_{\Omega} \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} \cdot \mathbf{v} \, d\Omega + \int_{\Omega} \mathbf{P} : \nabla \mathbf{v} \, d\Omega = \int_{\Omega} \mathbf{f}_{\text{ext}} \cdot \mathbf{v} \, d\Omega + \int_{\partial \Omega_t} \mathbf{t} \cdot \mathbf{v} \, d\Gamma
 $$
 
 Then we can choose one of the models to attain the correct Piola-Kirchhoff tensor:
