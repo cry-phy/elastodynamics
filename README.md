@@ -4,7 +4,7 @@ The goal of this project is to simulate soft bodies using non linear elastodynam
 
 ## Target Geometries
 
-Starting with simple bar deformation as test we want the endgoal to be importing 3D objects like the [Stanford Bunny](https://graphics.stanford.edu/data/3Dscanrep/) as deformation test subjects.
+Starting with simple bar deformation as test. The endgoal is to import 3D objects like the [Stanford Bunny](https://graphics.stanford.edu/data/3Dscanrep/) as deformation test subjects.
 
 ## Target equation
 
