@@ -9,6 +9,28 @@ Starting with simple bar deformation as test. The endgoal is to import 3D object
 ## Target equation
 
 $$
+\nabla \cdot \sigma + \mathbf{f}_{\text{ext}} = \frac{\partial^2 \mathbf{u}}{\partial t^2} \rho 
+$$
+
+Where:
+- $\rho$ is the material density (mass per unit volume in the reference configuration),
+- $\mathbf{u}$ is the displacement field,
+- $\frac{\partial^2 \mathbf{u}}{\partial t^2}$ is the acceleration,
+- $\mathbf{f}_{\text{ext}}$ represents external forces applied to the body.
+- $\sigma$ represents the Cauchy stress tensor:
+$$ \sigma = C : \epsilon $$
+with $C$ as the Stiffness tensor (i. e. Material Properties) and $\epsilon$ as the strain tensor:
+$$ \epsilon(u) = \frac{1}{2}\Big[ \nabla u + (\nabla u^T)\Big]$$
+
+The arising Weak formulation is given by (<span style="color:red">still have to handle dt² part</span>):
+$$
+\int_{\Omega} \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} \cdot \mathbf{v} \, d\Omega- \int_{\partial \Omega} \sigma n \cdot \mathbf{v} \, ds + \int_{\Omega} \sigma : \epsilon \, dx = \int_{\Omega} \mathbf{f}_{\text{ext}} \cdot \mathbf{v} \, d\Omega 
+$$
+
+
+## Deprecated: Hyperelasticity
+
+$$
 \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} = \nabla \cdot \mathbf{P} + \mathbf{f}_{\text{ext}}
 $$
 (Wikipedia)
