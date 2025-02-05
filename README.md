@@ -1,3 +1,5 @@
+![Wiggle](bunny3.gif)
+
 # Elastodynamics
 
 The goal of this project is to simulate soft bodies using non linear elastodynamics of hyperelastic materials.
