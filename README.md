@@ -38,10 +38,10 @@ These need large amounts of RAM:
 - [Bunny Simulation](Bunny_Simulation.ipynb) (min 42GB)
 
 ## Results
-![Wiggle Brick](Wiggle_Brick1.gif) 
-![Wiggle Brick](Wiggle_Brick2.gif) 
-![Wiggle Brick](Wiggle_Brick3.gif)
-![Takoma Bridge](Bridge.gif)
-![Stanford Bunny](Bunny.gif)
-![Stanford Bunny](Bunny1.gif)
+- [Wiggle Brick](Wiggle_Brick1.gif) 
+- [Wiggle Brick](Wiggle_Brick2.gif) 
+- [Wiggle Brick](Wiggle_Brick3.gif)
+- [Takoma Bridge](Bridge.gif)
+- [Stanford Bunny](Bunny.gif)
+- [Stanford Bunny](Bunny1.gif)
 
