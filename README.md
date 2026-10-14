@@ -24,7 +24,7 @@ Where:
 - $\mathbf{c}$ is the damping tensor modelling viscoelastic (Maxwell)
   damping with viscosity $\eta$,
 - $\mathbf{P}$ is the stress tensor; for linear elasticity it reduces to
-  the Cauchy stress $\sigma = 2\mu\varepsilon + \lambda \operatorname{tr}(\varepsilon) I$
+  the Cauchy stress $\sigma = 2\mu\varepsilon + \lambda \mathrm{tr}(\varepsilon) I$
   with strain $\varepsilon$ and Lamé parameters $\mu$, $\lambda$,
 - $\mathbf{F}$ is the force term (assumed $0$ for a relaxed initial
   state).
