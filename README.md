@@ -34,14 +34,32 @@ Easy to run files are:
 - [Dampened Elastodynamics Test](Timestepping_Dampened.ipynb) 
 
 These need large amounts of RAM: 
-- [Takoma Narrows Simulation](bridge_without_damping)
+- [Tacoma Narrows Simulation](bridge_without_damping.ipynb)
 - [Bunny Simulation](Bunny_Simulation.ipynb) (min 42GB)
 
 ## Results
 - [Wiggle Brick](Wiggle_Brick1.gif) 
 - [Wiggle Brick](Wiggle_Brick2.gif) 
 - [Wiggle Brick](Wiggle_Brick3.gif)
-- [Takoma Bridge](Bridge.gif)
-- [Stanford Bunny](Bunny.gif)
-- [Stanford Bunny](Bunny1.gif)
+- [Tacoma Bridge](Bridge.gif)
+- [Stanford Bunny](bunny.gif)
+- [Stanford Bunny](bunny2.gif)
 
+## Contributors
+- Christof Stein
+- Max Hirtenlehner
+- Tobias Gröfler
+
+## License
+- **Code** (all `.ipynb` notebooks) is licensed under the
+  [GNU General Public License v3.0 or later](LICENSE).
+- **Resources** (documentation PDF, GIFs, images and README text) are
+  licensed under
+  [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- **Exception:** `Bunny.stl` is the Stanford Bunny from the
+  [Stanford 3D Scanning Repository](https://graphics.stanford.edu/data/3Dscanrep/)
+  and remains subject to Stanford's terms of use. It is not covered by
+  the licenses above.
+
+The simulations use [NGSolve](https://ngsolve.org/), which is licensed
+under the LGPL-2.1.
