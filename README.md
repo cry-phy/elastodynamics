@@ -14,17 +14,20 @@ Starting with simple bar deformation as test. The endgoal is to import 3D object
 ## Target equation
 
 $$
-\rho \frac{\partial^2 \bm{u}}{\partial t^2} - \frac{\partial \bm{c}}{\partial t} + \nabla \bm{P} + \bm{F} = 0
+\rho \frac{\partial^2 \mathbf{u}}{\partial t^2} - \frac{\partial \mathbf{c}}{\partial t} + \nabla \mathbf{P} + \mathbf{F} = 0
 $$
 
 Where:
 - $\rho$ is the material density (mass per unit volume in the reference configuration),
 - $\mathbf{u}$ is the displacement field,
 - $\frac{\partial^2 \mathbf{u}}{\partial t^2}$ is the acceleration,
-- $\mathbf{f}_{\text{ext}}$ represents external forces applied to the body.
-- $\sigma$ represents the Cauchy stress tensor:
-$$ \sigma = C : \epsilon $$
-- $c = \eta \epsilon$ is a term to model viscoelastic damping
+- $\mathbf{c}$ is the damping tensor modelling viscoelastic (Maxwell)
+  damping with viscosity $\eta$,
+- $\mathbf{P}$ is the stress tensor; for linear elasticity it reduces to
+  the Cauchy stress $\sigma = 2\mu\varepsilon + \lambda \operatorname{tr}(\varepsilon) I$
+  with strain $\varepsilon$ and Lamé parameters $\mu$, $\lambda$,
+- $\mathbf{F}$ is the force term (assumed $0$ for a relaxed initial
+  state).
 
 More infos are in the [documentation PDF](Elastodynamics.pdf)
 ## Files
